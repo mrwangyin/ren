@@ -17,9 +17,9 @@
 package io.renren.modules.sys.service.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.xiaozu.tsport.interfaces.sys.entity.SysRoleMenuEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysRoleMenuService;
 import io.renren.modules.sys.dao.SysRoleMenuDao;
-import io.renren.modules.sys.entity.SysRoleMenuEntity;
-import io.renren.modules.sys.service.SysRoleMenuService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

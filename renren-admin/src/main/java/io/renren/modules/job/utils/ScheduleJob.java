@@ -16,10 +16,10 @@
 
 package io.renren.modules.job.utils;
 
+import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobEntity;
+import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobLogEntity;
+import com.xiaozu.tsport.interfaces.job.service.ScheduleJobLogService;
 import io.renren.common.utils.SpringContextUtils;
-import io.renren.modules.job.entity.ScheduleJobEntity;
-import io.renren.modules.job.entity.ScheduleJobLogEntity;
-import io.renren.modules.job.service.ScheduleJobLogService;
 import org.apache.commons.lang.StringUtils;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

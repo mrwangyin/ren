@@ -16,11 +16,11 @@
 
 package io.renren.modules.sys.controller;
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysDictEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysDictService;
 import io.renren.common.utils.PageUtils;
 import io.renren.common.utils.R;
 import io.renren.common.validator.ValidatorUtils;
-import io.renren.modules.sys.entity.SysDictEntity;
-import io.renren.modules.sys.service.SysDictService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

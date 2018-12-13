@@ -17,13 +17,13 @@
 package io.renren.common.aspect;
 
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysDeptService;
+import com.xiaozu.tsport.interfaces.sys.service.SysRoleDeptService;
+import com.xiaozu.tsport.interfaces.sys.service.SysUserRoleService;
 import io.renren.common.annotation.DataFilter;
 import io.renren.common.exception.RRException;
 import io.renren.common.utils.Constant;
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysDeptService;
-import io.renren.modules.sys.service.SysRoleDeptService;
-import io.renren.modules.sys.service.SysUserRoleService;
 import io.renren.modules.sys.shiro.ShiroUtils;
 import org.apache.commons.lang.StringUtils;
 import org.aspectj.lang.JoinPoint;

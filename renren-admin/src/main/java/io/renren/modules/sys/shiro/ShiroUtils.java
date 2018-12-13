@@ -16,8 +16,8 @@
 
 package io.renren.modules.sys.shiro;
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
 import io.renren.common.exception.RRException;
-import io.renren.modules.sys.entity.SysUserEntity;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.session.Session;

@@ -16,12 +16,12 @@
 
 package io.renren.modules.job.controller;
 
+import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobEntity;
+import com.xiaozu.tsport.interfaces.job.service.ScheduleJobService;
 import io.renren.common.annotation.SysLog;
 import io.renren.common.utils.PageUtils;
 import io.renren.common.utils.R;
 import io.renren.common.validator.ValidatorUtils;
-import io.renren.modules.job.entity.ScheduleJobEntity;
-import io.renren.modules.job.service.ScheduleJobService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

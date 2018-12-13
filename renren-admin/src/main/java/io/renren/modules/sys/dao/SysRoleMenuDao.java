@@ -17,7 +17,7 @@
 package io.renren.modules.sys.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import io.renren.modules.sys.entity.SysRoleMenuEntity;
+import com.xiaozu.tsport.interfaces.sys.entity.SysRoleMenuEntity;
 
 import java.util.List;
 

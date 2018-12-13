@@ -17,7 +17,7 @@
 package io.renren.modules.sys.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import io.renren.modules.sys.entity.SysRoleEntity;
+import com.xiaozu.tsport.interfaces.sys.entity.SysRoleEntity;
 
 /**
  * 角色管理

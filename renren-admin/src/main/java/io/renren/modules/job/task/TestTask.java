@@ -16,8 +16,8 @@ package io.renren.modules.job.task;
  * the License.
  */
 
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysUserService;
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysUserService;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

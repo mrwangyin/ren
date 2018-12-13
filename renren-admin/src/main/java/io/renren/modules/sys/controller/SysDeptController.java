@@ -16,10 +16,10 @@
 
 package io.renren.modules.sys.controller;
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysDeptEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysDeptService;
 import io.renren.common.utils.Constant;
 import io.renren.common.utils.R;
-import io.renren.modules.sys.entity.SysDeptEntity;
-import io.renren.modules.sys.service.SysDeptService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -16,9 +16,9 @@
 
 package io.renren.modules.job.utils;
 
+import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobEntity;
 import io.renren.common.exception.RRException;
 import io.renren.common.utils.Constant;
-import io.renren.modules.job.entity.ScheduleJobEntity;
 import org.quartz.*;
 
 /**

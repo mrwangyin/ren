@@ -19,11 +19,11 @@ package io.renren.modules.job.service.impl;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobLogEntity;
+import com.xiaozu.tsport.interfaces.job.service.ScheduleJobLogService;
 import io.renren.common.utils.PageUtils;
 import io.renren.common.utils.Query;
 import io.renren.modules.job.dao.ScheduleJobLogDao;
-import io.renren.modules.job.entity.ScheduleJobLogEntity;
-import io.renren.modules.job.service.ScheduleJobLogService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 

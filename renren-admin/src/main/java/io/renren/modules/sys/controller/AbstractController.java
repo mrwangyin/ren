@@ -16,7 +16,7 @@
 
 package io.renren.modules.sys.controller;
 
-import io.renren.modules.sys.entity.SysUserEntity;
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
 import org.apache.shiro.SecurityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

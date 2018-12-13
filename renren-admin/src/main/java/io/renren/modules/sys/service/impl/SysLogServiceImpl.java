@@ -19,11 +19,11 @@ package io.renren.modules.sys.service.impl;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.xiaozu.tsport.interfaces.sys.entity.SysLogEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysLogService;
 import io.renren.common.utils.PageUtils;
 import io.renren.common.utils.Query;
 import io.renren.modules.sys.dao.SysLogDao;
-import io.renren.modules.sys.entity.SysLogEntity;
-import io.renren.modules.sys.service.SysLogService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 

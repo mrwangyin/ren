@@ -16,7 +16,7 @@
 
 package io.renren.modules.sys.controller;
 
-import io.renren.modules.sys.service.SysLogService;
+import com.xiaozu.tsport.interfaces.sys.service.SysLogService;
 import io.renren.common.utils.PageUtils;
 import io.renren.common.utils.R;
 import org.apache.shiro.authz.annotation.RequiresPermissions;

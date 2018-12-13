@@ -18,7 +18,7 @@ package io.renren.modules.sys.dao;
 
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import io.renren.modules.sys.entity.SysConfigEntity;
+import com.xiaozu.tsport.interfaces.sys.entity.SysConfigEntity;
 import org.apache.ibatis.annotations.Param;
 
 /**

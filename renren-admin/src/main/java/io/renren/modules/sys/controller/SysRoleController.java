@@ -16,14 +16,14 @@
 
 package io.renren.modules.sys.controller;
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysRoleEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysRoleDeptService;
+import com.xiaozu.tsport.interfaces.sys.service.SysRoleMenuService;
+import com.xiaozu.tsport.interfaces.sys.service.SysRoleService;
 import io.renren.common.annotation.SysLog;
 import io.renren.common.utils.PageUtils;
 import io.renren.common.utils.R;
 import io.renren.common.validator.ValidatorUtils;
-import io.renren.modules.sys.entity.SysRoleEntity;
-import io.renren.modules.sys.service.SysRoleDeptService;
-import io.renren.modules.sys.service.SysRoleMenuService;
-import io.renren.modules.sys.service.SysRoleService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

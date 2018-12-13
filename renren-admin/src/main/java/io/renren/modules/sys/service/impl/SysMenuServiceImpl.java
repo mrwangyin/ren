@@ -18,13 +18,13 @@ package io.renren.modules.sys.service.impl;
 
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.xiaozu.tsport.interfaces.sys.entity.SysMenuEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysMenuService;
+import com.xiaozu.tsport.interfaces.sys.service.SysRoleMenuService;
+import com.xiaozu.tsport.interfaces.sys.service.SysUserService;
 import io.renren.common.utils.Constant;
 import io.renren.common.utils.MapUtils;
 import io.renren.modules.sys.dao.SysMenuDao;
-import io.renren.modules.sys.entity.SysMenuEntity;
-import io.renren.modules.sys.service.SysMenuService;
-import io.renren.modules.sys.service.SysRoleMenuService;
-import io.renren.modules.sys.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

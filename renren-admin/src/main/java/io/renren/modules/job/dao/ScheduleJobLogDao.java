@@ -17,7 +17,7 @@
 package io.renren.modules.job.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import io.renren.modules.job.entity.ScheduleJobLogEntity;
+import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobLogEntity;
 
 /**
  * 定时任务日志

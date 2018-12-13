@@ -17,7 +17,7 @@
 package io.renren.modules.job.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import io.renren.modules.job.entity.ScheduleJobEntity;
+import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobEntity;
 
 import java.util.Map;
 

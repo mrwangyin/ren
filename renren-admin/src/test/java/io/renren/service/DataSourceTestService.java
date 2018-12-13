@@ -16,10 +16,10 @@
 
 package io.renren.service;
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysUserService;
 import io.renren.datasources.DataSourceNames;
 import io.renren.datasources.annotation.DataSource;
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

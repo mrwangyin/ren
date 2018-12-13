@@ -18,11 +18,11 @@ package io.renren.modules.sys.service.impl;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.xiaozu.tsport.interfaces.sys.entity.SysDeptEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysDeptService;
 import io.renren.common.annotation.DataFilter;
 import io.renren.common.utils.Constant;
 import io.renren.modules.sys.dao.SysDeptDao;
-import io.renren.modules.sys.entity.SysDeptEntity;
-import io.renren.modules.sys.service.SysDeptService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

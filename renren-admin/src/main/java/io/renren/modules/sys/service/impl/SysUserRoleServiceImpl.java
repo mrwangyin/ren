@@ -18,10 +18,10 @@ package io.renren.modules.sys.service.impl;
 
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserRoleEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysUserRoleService;
 import io.renren.common.utils.MapUtils;
 import io.renren.modules.sys.dao.SysUserRoleDao;
-import io.renren.modules.sys.entity.SysUserRoleEntity;
-import io.renren.modules.sys.service.SysUserRoleService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

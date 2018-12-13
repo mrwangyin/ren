@@ -1,7 +1,7 @@
 package io.renren;
 
 
-import io.renren.modules.sys.entity.SysUserEntity;
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
 import io.renren.service.DataSourceTestService;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.junit.Test;

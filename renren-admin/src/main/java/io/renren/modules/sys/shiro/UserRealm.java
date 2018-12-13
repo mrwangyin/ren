@@ -23,11 +23,11 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysMenuEntity;
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
 import io.renren.common.utils.Constant;
-import io.renren.modules.sys.entity.SysUserEntity;
 import io.renren.modules.sys.dao.SysMenuDao;
 import io.renren.modules.sys.dao.SysUserDao;
-import io.renren.modules.sys.entity.SysMenuEntity;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authc.credential.CredentialsMatcher;

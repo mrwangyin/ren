@@ -19,10 +19,10 @@ package io.renren.common.aspect;
 import com.google.gson.Gson;
 
 
+import com.xiaozu.tsport.interfaces.sys.entity.SysLogEntity;
+import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
+import com.xiaozu.tsport.interfaces.sys.service.SysLogService;
 import io.renren.common.annotation.SysLog;
-import io.renren.modules.sys.entity.SysLogEntity;
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysLogService;
 import io.renren.common.utils.HttpContextUtils;
 import io.renren.common.utils.IPUtils;
 

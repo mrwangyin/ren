@@ -18,7 +18,7 @@ package io.renren.modules.oss.dao;
 
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import io.renren.modules.oss.entity.SysOssEntity;
+import com.xiaozu.tsport.interfaces.oss.entity.SysOssEntity;
 
 /**
  * 文件上传
