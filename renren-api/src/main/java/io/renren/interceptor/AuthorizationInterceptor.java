@@ -18,7 +18,7 @@ package io.renren.interceptor;
 
 
 import io.renren.annotation.Login;
-import io.renren.common.exception.RRException;
+import com.xiaozu.tsport.common.exception.RRException;
 import io.renren.entity.TokenEntity;
 import io.renren.service.TokenService;
 import org.apache.commons.lang.StringUtils;

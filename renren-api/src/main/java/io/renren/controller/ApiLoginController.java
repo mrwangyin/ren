@@ -2,8 +2,8 @@ package io.renren.controller;
 
 
 import io.renren.annotation.Login;
-import io.renren.common.utils.R;
-import io.renren.common.validator.ValidatorUtils;
+import com.xiaozu.tsport.common.utils.R;
+import com.xiaozu.tsport.common.validator.ValidatorUtils;
 import io.renren.form.LoginForm;
 import io.renren.service.TokenService;
 import io.renren.service.UserService;

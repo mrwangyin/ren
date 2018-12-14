@@ -18,7 +18,7 @@ package com.xiaozu.tsport.interfaces.job.service;
 
 import com.baomidou.mybatisplus.service.IService;
 import com.xiaozu.tsport.interfaces.job.entity.ScheduleJobEntity;
-import io.renren.common.utils.PageUtils;
+import com.xiaozu.tsport.common.utils.PageUtils;
 
 import java.util.Map;
 

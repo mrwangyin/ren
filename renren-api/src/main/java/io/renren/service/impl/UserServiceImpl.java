@@ -18,8 +18,8 @@ package io.renren.service.impl;
 
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import io.renren.common.exception.RRException;
-import io.renren.common.validator.Assert;
+import com.xiaozu.tsport.common.exception.RRException;
+import com.xiaozu.tsport.common.validator.Assert;
 import io.renren.dao.UserDao;
 import io.renren.entity.TokenEntity;
 import io.renren.entity.UserEntity;

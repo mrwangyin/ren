@@ -1,8 +1,8 @@
 package io.renren.controller;
 
 
-import io.renren.common.utils.R;
-import io.renren.common.validator.ValidatorUtils;
+import com.xiaozu.tsport.common.utils.R;
+import com.xiaozu.tsport.common.validator.ValidatorUtils;
 import io.renren.entity.UserEntity;
 import io.renren.form.RegisterForm;
 import io.renren.service.UserService;

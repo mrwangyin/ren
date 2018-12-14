@@ -18,8 +18,8 @@ package com.xiaozu.tsport.interfaces.sys.service;
 
 
 import com.baomidou.mybatisplus.service.IService;
-import com.xiaozu.tsport.interfaces.sys.entity.SysConfigEntity;
-import io.renren.common.utils.PageUtils;
+import com.xiaozu.tsport.common.entity.SysConfigEntity;
+import com.xiaozu.tsport.common.utils.PageUtils;
 
 import java.util.Map;
 

@@ -1,7 +1,7 @@
 package io.renren;
 
 import com.xiaozu.tsport.interfaces.sys.entity.SysUserEntity;
-import io.renren.common.utils.RedisUtils;
+import com.xiaozu.tsport.common.utils.RedisUtils;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
